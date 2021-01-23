@@ -1,0 +1,68 @@
+body{
+	/*font-size: 50%;*/
+	margin: 0;
+}
+
+h1{
+	background-color: #000099;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 15px 0;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+#buttons{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: white;
+	color: #000099;
+
+}
+
+button{
+	background-color: white;
+	color: #000099; 
+	text-transform: uppercase;
+	outline: none;
+	border: 0px solid white;
+	font-family: monospace; 
+	font-size: 30px;
+	transition: all 0.4s;
+	margin: 0 10%;
+}
+button:hover{
+	color: #b3b3ff;
+}
+#result{
+	font-family: monospace; 
+	font-size: 30px;
+	margin: 0 10%;
+}
+
+#easy{
+	margin-right: 0.5%;
+}
+#hard{
+	margin-left: 0.5%;
+}
+
+.choose{
+	color: #b3b3ff;
+}
+
+.sq{
+	width: 30%;
+	background-color: #ccffff;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 50%;
+}
+
+#square{
+	max-width: 800px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
